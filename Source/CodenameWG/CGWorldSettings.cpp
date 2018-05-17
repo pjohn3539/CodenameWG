@@ -22,6 +22,15 @@ void ACGWorldSettings::BeginPlay()
 void ACGWorldSettings::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+}
 
+void ACGWorldSettings::OnToggleSplitScreen(AActor* Context, bool disable) 
+{
+	if (Context)
+	{
+		isSplitScreenDisable = disable;
+		Context->GetWorld()->GetGameViewport()->SetDisableSplitscreenOverride(isSplitScreenDisable);
+		//Context->GetWorld()->GetGameViewport();
+	}
 }
 

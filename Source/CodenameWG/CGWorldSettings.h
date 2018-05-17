@@ -22,7 +22,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
 	
+	UFUNCTION(BlueprintCallable, Category = "splitscreen")
+	void OnToggleSplitScreen(AActor* Context, bool status);
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PlayerMusicSkill)
+	bool isSplitScreenDisable = false;
 	
 };
