@@ -1,3 +1,4 @@
 M_AssetPlatform.uasset filter=lfs diff=lfs merge=lfs -text
 T_Minion_Dawn_Melee_D.uasset filter=lfs diff=lfs merge=lfs -text
 Content/ParagonMinions/** filter=lfs diff=lfs merge=lfs -text
+C:/Users/Xlan59/Documents/CodenameWG/Content/Interaction/Blueprints/Pawn/Enemy/Enemy_Rifle_White.uasset filter=lfs diff=lfs merge=lfs -text
