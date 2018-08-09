@@ -8,3 +8,4 @@ Content/ParagonProps/** filter=lfs diff=lfs merge=lfs -text
 Content/ParagonGrux/** filter=lfs diff=lfs merge=lfs -text
 Content/FirstLevel.umap filter=lfs diff=lfs merge=lfs -text
 Content/FirstLevel_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
+Content/Maps/** filter=lfs diff=lfs merge=lfs -text
