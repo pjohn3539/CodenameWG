@@ -9,3 +9,6 @@ Content/ParagonGrux/** filter=lfs diff=lfs merge=lfs -text
 Content/FirstLevel.umap filter=lfs diff=lfs merge=lfs -text
 Content/FirstLevel_BuiltData.uasset filter=lfs diff=lfs merge=lfs -text
 Content/Maps/** filter=lfs diff=lfs merge=lfs -text
+Content/ParagonKwang/** filter=lfs diff=lfs merge=lfs -text
+Content/ParagonWraith/** filter=lfs diff=lfs merge=lfs -text
+Content/RetargetAnimation/** filter=lfs diff=lfs merge=lfs -text
