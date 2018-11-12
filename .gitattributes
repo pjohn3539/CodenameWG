@@ -12,3 +12,4 @@ Content/Maps/** filter=lfs diff=lfs merge=lfs -text
 Content/ParagonKwang/** filter=lfs diff=lfs merge=lfs -text
 Content/ParagonWraith/** filter=lfs diff=lfs merge=lfs -text
 Content/RetargetAnimation/** filter=lfs diff=lfs merge=lfs -text
+Content/CircleDamageIndicator/** filter=lfs diff=lfs merge=lfs -text
